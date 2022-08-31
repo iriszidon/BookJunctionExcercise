@@ -52,15 +52,5 @@ namespace BookJunction
         public IWebElement topSearchImageIcon => driver.FindElement(By.Id("top-search-image-icon"), extendedTimeOut);
         public IWebElement imageSecond => driver.FindElement(By.XPath("//img[@src='https://www.booknet.co.il/Images/Site/Pages/0cfca824-8da8-4c9a-9ee6-65607367b3b3.png']"), extendedTimeOut);
 
-
-
-        //SelectElement selector = new SelectElement(driver.FindElement(By.Id("shipment"), extendedTimeOut));
-        //selector.SelectByIndex(2);
-        //    //Go to payment page
-
-        ////Get back to manin page
-        //driver.Navigate().GoToUrl("https://www.booknet.co.il/");
-        // go to chart
-        //Click next"
     }
 }
